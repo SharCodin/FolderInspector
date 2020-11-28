@@ -1,5 +1,4 @@
 import os
-import ctypes
 import pyperclip
 
 pyperclip.copy('Err')
