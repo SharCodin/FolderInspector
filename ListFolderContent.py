@@ -6,7 +6,7 @@ tabPath = ""
 tabsmod = 0
 tabsPlus = 0
 
-rootDir = filedialog.askdirectory()
+rootDir = os.getcwd()
 masterFilePath = os.path.join(rootDir, '__myList.txt')
 with open(masterFilePath, 'w', encoding='utf-8') as f:
     for dirpaths, dirnames, filenames in os.walk(rootDir):
