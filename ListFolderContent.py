@@ -27,5 +27,4 @@ with open(masterFilePath, 'w', encoding='utf-8') as f:
         else:
             for file in filenames:
                 f.write('\t' * tabsPlus + file + '\n')
-
-os.startfile(rootDir)
+print('DONE'.center(50, "="))
